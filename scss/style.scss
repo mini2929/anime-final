@@ -1,26 +1,2 @@
 @import "reset";
 
-section {
-    width: 1000px;
-    height: 800px;
-    border: 1px solid black;
-    position: relative;
-
-    article {
-        width: 100px;
-        height: 100px;
-        background-color: aquamarine;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-    }
-
-    nav {
-        width: 200px;
-        height: 200px;
-        background-color: pink;
-        position: absolute;
-        top : 100px;
-        left: 0px;
-    }
-}
