@@ -1,8 +1,10 @@
 const btn = document.querySelector("button");
+const btn2 = document.querySelector(".two");
 const box = document.querySelector("article");
+const nav = document.querySelector("nav");
 
 btn.addEventListener("click", () => {
-    new Anime(box, {top : "50%", left:"50%"},{duration: 1000});
+    new Anime(box, {top : "50%", left:"50%", opacity:0.5},{duration: 300});
 });
 
 
@@ -21,4 +23,14 @@ btn.addEventListener("click", () => {
   //제어 가능 속성: width, height, opacity, top, left, bottom, left, color, backgroundColor, scroll
   new Anime(box, { width: 300, left: "50%", opacity: 0 }, { duration: 1000 });
 });
+*/
+
+btn2.addEventListener("click", () => {
+    new Anime(nav, {width : "50%", height : "50%"})
+});
+
+
+
+/*
+https://cubic-bezier.com/#.17,.67,.83,.67
 */
