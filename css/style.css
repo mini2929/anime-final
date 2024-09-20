@@ -15,4 +15,19 @@ a {
   color: inherit;
 }
 
+section {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  position: relative;
+}
+section article {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
 /*# sourceMappingURL=style.css.map */
