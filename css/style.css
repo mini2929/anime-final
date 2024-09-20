@@ -19,5 +19,14 @@ body {
   height: 500vh;
   background-image: linear-gradient(to bottom, red, yellow, green, aqua, blue, indigo);
 }
+body nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+body nav button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=style.css.map */
