@@ -1,3 +1,4 @@
+/*
 const [btn1, btn2, btn3, btn4] = document.querySelectorAll("button");
 
 btn1.addEventListener("click", () => {
@@ -18,6 +19,8 @@ btn4.addEventListener("click", () => {
         , {duration:500});
 });
 
+*/
+
 // 위의 3개의 이벤트 구문을 반복문을 통해 하나로 축약
 
 
@@ -32,10 +35,11 @@ DOM명.addEventListener("click", () => {
 */
 
 
-const
-const posArr = [0, 2000, 4000];
+const btns = document.querySelectorAll("button");
+const posArr = [0, 2000, 2500, 3000, 3500, 4000]; // button 개수만큼 적용됨
 
-btns.forEach((btn, idx)) => {
+btns.forEach((btn, idx) => {
     btn.addEventListener("click", () => {
-        new Anime(window, {scroll : posArr[idx]},)}
-    )}
+        new Anime(window, {scroll : posArr[idx]});
+    });
+    });
