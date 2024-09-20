@@ -15,4 +15,9 @@ a {
   color: inherit;
 }
 
+body {
+  height: 500vh;
+  background-image: linear-gradient(to bottom, red, yellow, green, aqua, blue, indigo);
+}
+
 /*# sourceMappingURL=style.css.map */
